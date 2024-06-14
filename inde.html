@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <center>
+    <h1>Trabalhando com formulários</h1>
+<hr>
+    <form action="sucesso.html" method="post">
+        <label>Nome</label>
+       <input type="text" name="nome" placeholder="Digite seu nome aqui" required>
+       <hr>
+       <label>Endereço</label>
+       <input type="text" name="endereco" placeholder="Digite aqui" required>
+       <hr>
+       <label>Senha</label>
+       <input type="password" name="senha" maxlength="8" placeholder="Digite aqui" required>
+       <hr>
+       <label>Data</label>
+       <input type="date">
+       <label>sexo</label>
+       <input type="radio" name="sexo" value="masc">Masculino
+       <input type="radio" name="sexo" value="fem">Feminino
+       <hr>
+       <label>Cor preferida</label>
+       <input type="checkbox" name="cor" value="azul">azul
+       <input type="checkbox" name="cor" value="rosa">rosa
+       <input type="checkbox" name="cor" value="amarelo">amarelo
+       <input type="checkbox" name="cor" value="vermelho">vermelho
+       <hr>
+       <label>email</label>
+       <input type="email" name="email">
+       <hr>
+       <label>UF</label>
+       <select name="uf">
+        <option>selecione</option>
+        <option>DF</option>
+        <option>GO</option>
+        <option>MT</option>
+        <option>MD</option>
+        </select>
+
+       <hr>
+       <label>Anexar documentos</label>
+       <input type="file">
+       <hr>
+       <label>Deixe aqui o seu comentário</label><br>
+       <br>
+
+       <textarea name="comentario" cols="30" rows="10" maxlength="300"></textarea><br><br>
+        <input type="reset" value="Cancelar">
+        <input type="submit" value="Enviar">
+
+
+
+    </form>
+</body>
+</html>
